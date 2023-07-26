@@ -32,10 +32,10 @@ html {
 }
 
 @font-face {
-  font-family: 'Slackey';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/slackey/v24/N0bV2SdQO-5yM0-dGlNQJPTVkdc.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/Montserrat/v24/N0bV2SdQO-5yM0-dGlNQJPTVkdc.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -84,13 +84,13 @@ h1 {
 }
 
 .logoh1 {
-  font-family: Slackey;
+  font-family: Montserrat;
   letter-spacing: 1px;
   
 }
 
 .btn {
-  color: white;
+  /* color: white; */
 }
 /* Grouping content
    ========================================================================== */
@@ -396,10 +396,10 @@ template {
  * Basic typography style for copy text
  */
 body {
-  color: #dddddd;
+  color: silver;
   font-size: 1rem;
   line-height: 1.4;
-  font-family: "Slackey", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #000;
 }
 
@@ -409,9 +409,9 @@ h3,
 h4,
 h5,
 h6 {
-  /* font-family: "Slackey", cursive; */
-  font-family: Slackey;
-  color: #fff;
+  /* font-family: "Montserrat", cursive; */
+  font-family: Montserrat;
+  /* color: #fff; */
   line-height: 1.2;
   font-weight: 400;
   text-transform: uppercase;
@@ -1075,7 +1075,7 @@ ol {
   }
 }
 
-@keyframes hover3 {
+@keyframes hoverX {
   0%,
   to {
     transform: translateY(0);
@@ -1084,10 +1084,7 @@ ol {
     transform: translateX(10px);
   }
 }
-.animate-hover3 {
-  animation: hover3 3s linear infinite;
-}
-@keyframes hover {
+@keyframes hoverY {
   0%,
   to {
     transform: translateY(0);
@@ -1095,9 +1092,6 @@ ol {
   50% {
     transform: translateY(-100px);
   }
-}
-.animate-hover {
-  animation: hover 2s linear infinite;
 }
 @keyframes growth {
   0%,
@@ -1110,6 +1104,18 @@ ol {
 }
 .animate-growth {
   animation: growth 20s linear infinite;
+}
+.animate-hover-y2s {
+  animation: hoverY 2s linear infinite;
+}
+.animate-hover-x3s {
+  animation: hoverX 3s linear infinite;
+}
+.animate-hover-y4s {
+  animation: hoverY 4s linear infinite;
+}
+.animate-hover-y6s {
+  animation: hoverY 6s linear infinite;
 }
 
 .header-wrapper {
@@ -1141,7 +1147,7 @@ ol {
     display: none;
   }
   .logoh1 {
-    font-family: Slackey;
+    font-family: Montserrat;
     letter-spacing: 1px;
     font-size: 50px;
     width: 300px;
@@ -1158,7 +1164,7 @@ ol {
   font-size: 16px;
   padding: 15px 22px;
   text-transform: uppercase;
-  font-family: "Slackey", cursive;
+  font-family: "Montserrat", cursive;
   font-weight: 400;
 }
 .menu > li > a i {
@@ -1214,7 +1220,7 @@ ol {
   .menu li .submenu li a {
     padding: 10px 20px;
     text-transform: uppercase;
-    font-family: "Slackey", cursive;
+    font-family: "Montserrat", cursive;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1576,7 +1582,7 @@ ol {
 }
 .banner__content p {
   font-size: 1.125rem;
-  font-family: "Slackey", cursive;
+  font-family: "Montserrat", cursive;
   line-height: 1.65;
   max-inline-size: 42ch;
 }
@@ -1824,7 +1830,7 @@ ol {
 .default-btn {
   font-size: 0.875rem;
   text-decoration: none;
-  font-family: "Slackey", cursive;
+  font-family: "Montserrat", cursive;
   color: #fff;
   padding: 0 1.7rem;
   line-height: 50px;
@@ -1995,7 +2001,7 @@ ol {
 .mint-step__list-item {
   font-size: 1.125rem;
   text-transform: capitalize;
-  font-family: "Slackey", cursive;
+  font-family: "Montserrat", cursive;
   font-weight: 700;
   border-top: 1px solid #000000;
   padding-block: 1rem;
@@ -2337,7 +2343,7 @@ ol {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  font-family: "Slackey", cursive;
+  font-family: "Montserrat", cursive;
   font-weight: 400;
 }
 .article-pagination .prev-article a svg,
@@ -2438,7 +2444,7 @@ ol {
   font-size: 1.25rem;
   display: block;
   font-weight: 400;
-  font-family: "Slackey", cursive;
+  font-family: "Montserrat", cursive;
 }
 .comments .comment-list .comment .com-content .com-title .com-title-meta h6 a {
   color: #000000;
@@ -2698,7 +2704,7 @@ ol {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   color: #dddddd;
-  font-family: "Slackey", cursive;
+  font-family: "Montserrat", cursive;
   padding: 20px 30px;
 }
 .widget.widget-category .widget-wrapper li a svg {
@@ -2829,7 +2835,7 @@ ol {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  font-family: "Slackey", cursive;
+  font-family: "Montserrat", cursive;
   padding: 7px 13px;
   border-radius: 2px;
   background-color: #000000;
@@ -2858,7 +2864,7 @@ ol {
 .widget.widget-service .widget-service__list-item p {
   font-size: 1.125rem;
   font-weight: 700;
-  font-family: "Slackey", cursive;
+  font-family: "Montserrat", cursive;
 }
 .widget.widget-service .widget-service__list-item:hover, .widget.widget-service .widget-service__list-item.active {
   background-color: #000000;
@@ -3174,7 +3180,7 @@ ol {
 .roadmap__item-header p {
   font-size: calc(1.275rem + 0.2571428571vw);
   font-weight: 700;
-  font-family: "Slackey", cursive;
+  font-family: "Montserrat", cursive;
   color: #3f5468;
 }
 @media (min-width: 1400px) {
@@ -3321,7 +3327,7 @@ ol {
   font-size: calc(1.275rem + 0.2571428571vw);
   background-color: #000000;
   color: #000000;
-  font-family: "Slackey", cursive;
+  font-family: "Montserrat", cursive;
   font-weight: 400;
   padding: 1.5rem 1rem;
   border: none;
